@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/SonyaRang/Object-Oriented-Programming-Team-Profile#readme",
   "dependencies": {
+    "inquirer": "^8.1.2",
     "node": "^16.6.1"
   }
 }

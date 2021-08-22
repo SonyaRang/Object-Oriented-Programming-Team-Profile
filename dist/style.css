@@ -1,0 +1,42 @@
+:root {
+    --primary: rgb(87, 87, 201);
+    --secondary: rgb(255, 244, 244);
+
+}
+
+body {
+    background-color: var(--secondary);
+
+}
+header {
+    background-color: var(--primary);
+    text-align: center;
+    top: 0;
+    color: white;
+    font-weight: 500;
+    line-height: 1.25;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.card {
+    margin: 10px;
+    max-width: 275px;
+}
+
+
+.card-header {
+    color: white; 
+    font-size: 25px;
+    font-weight: 450;
+}
+
+.list-group-item {
+    color: black;
+    font-weight: 500;
+} 
+
+.container, .row {
+    padding-left: 20%;
+    padding-right: 20%;
+}
