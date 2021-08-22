@@ -1,6 +1,4 @@
-//generatedHTML
-const generatedHTML = require('./src/generatedHTML');
-
+const generateHTML = require('./src/generatedHTML');
 //node
 const fs = require('fs');
 const inquirer = require('inquirer');
@@ -162,7 +160,7 @@ const addEmployee = () => {
         {
             type: 'confirm',
             name: 'confirmAddEmployee',
-            message: 'Would you like to add more team members?',
+            message: 'Would you like to add another team member?',
             default: false
         }
     ])
